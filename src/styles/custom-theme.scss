@@ -19,23 +19,25 @@ $berth-subheading-1:  mat-typography-level(15px, 24px, 400);
 $berth-body-2:        mat-typography-level(14px, 24px, 500);
 $berth-body-1:        mat-typography-level(14px, 20px, 400);
 $berth-caption:       mat-typography-level(12px, 20px, 400);
-$berth-button:        mat-typography-level(14px, 14px, 500);
+$berth-button:        mat-typography-level(12px, 12px, 500);
   // Line-height must be unit-less fraction of the font-size.
-$berth-input:         mat-typography-level(8px, 8px, 400);
+$berth-input:         mat-typography-level(12px, 1.125, 400);
 
 $berth-typography: mat-typography-config(
     $berth-font-family,
-  $berth-display-4,
-  $berth-display-2,
-  $berth-display-1,
-  $berth-headline,
-  $berth-subheading-2,
-  $berth-subheading-1,
-  $berth-body-2,
-  $berth-body-1,
-  $berth-caption,
-  $berth-button,
-  $berth-input);
+    $berth-display-4,
+    $berth-display-3,
+    $berth-display-2,
+    $berth-display-1,
+    $berth-headline,
+    $berth-title,
+    $berth-subheading-2,
+    $berth-subheading-1,
+    $berth-body-2,
+    $berth-body-1,
+    $berth-caption,
+    $berth-button,
+    $berth-input);
 
 @include mat-core($berth-typography);
 
