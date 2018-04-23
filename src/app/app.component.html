@@ -6,19 +6,31 @@
 </div>
 
 <div class="container">
-    <mat-form-field>
-      <input matInput placeholder="Favorite food" value="Sushi">
-    </mat-form-field>
+    <div class="item">
+      <mat-form-field floatLabel="never">
+        <label>Name:</label>
+        <input matInput>
+      </mat-form-field>
+    </div>
 
-    <button mat-button>Click me!</button>
+    <div class="item">
+      <button mat-raised-button color="primary" disableRipple="true">Click me!</button>
+    </div>
 
-    <mat-checkbox>Check me!</mat-checkbox>
+    <div class="item">
+      <button mat-raised-button color="primary" disabled="true">Click me!</button>
+    </div>
 
-    <mat-form-field>
-      <mat-select placeholder="Favorite food">
-        <mat-option value="pasta">
-        </mat-option>
-      </mat-select>
-    </mat-form-field>
+    <div class="item">
+      <mat-checkbox>Check me!</mat-checkbox>
+    </div>
+
+    <div class="item">
+      <mat-form-field>
+        <mat-select placeholder="Favorite food">
+          <mat-option value='pasta'></mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
 </div>
 
